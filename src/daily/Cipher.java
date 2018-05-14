@@ -8,6 +8,7 @@ public class Cipher {
         for (int i = 0, j = 0; i < message.length(); i++, j = (j + 1) % keyword.length()) {
             message.indexOf(keyword.charAt(j));
         }
+        return null;
     }
 
 }
